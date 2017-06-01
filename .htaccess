@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://vermelho.com.mx/index.php
+ Options -Indexes
