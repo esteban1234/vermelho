@@ -510,3 +510,287 @@ footer p{
     color: #fff;
 }
 
+/*------------------nosotros----------*/
+.titn{
+  /*border: 2px red solid;*/
+  margin-top: 3%;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #303030;
+}
+.subtitn{
+  margin-top: 2%;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #E94B22;
+}
+.contentextmex{
+  width: 100%;
+  /*border: 2px red solid;*/
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+.texton{
+  width: 48%;
+  /*border: 2px red solid;*/
+  margin-left: 5%;
+  font-size: 17px;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3%;
+}
+.mex{
+  width: 40%;
+  margin-right: 2%;
+}
+figure p{
+  font-size: 20px;
+  color: #E94B22;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 1%;
+}
+.contenmvv{
+  /*border: 2px red solid;*/
+  position: relative;
+    height: 460px;
+    background: url('../img/bannern.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.fondo2{
+  width: 100%;
+  height: 460px;
+  /*background-color: rgba(0,0,0,.5);*/
+  background-color: rgba(19,41,58,.5);
+  overflow: hidden;
+}
+.uno{
+  width: 30%;
+  /*border: 2px red solid;*/
+  margin-left: 2%;
+  margin-top: 9%;
+  float: left;
+}
+.mtit{
+   font-size: 30px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  /*margin-top: 1%;*/
+}
+.submtit{
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  /*font-weight: bold;*/
+}
+/*-------------------servicios---------------*/
+
+.tits{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 200px;
+  background-color: #E94B22;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+.tits p{
+  margin: 0 auto;
+  border: 1px white solid;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1%;
+  width: 50%;
+  padding: 20px;
+}
+.fondo3{
+   width: 100%;
+  height: 100%;
+  /*background-color: rgba(0,0,0,.5);*/
+  background-color: rgba(19,41,58,.9);
+  /*overflow: hidden;*/
+}
+
+.absoluto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.camara {
+  position: relative;
+  overflow: hidden;
+  /*max-width: 500px;*/
+  width: 30%;
+  max-height: 333px;
+  /*display: block;*/
+  float: left;
+  /*margin: 40px auto;*/
+  /*margin-top: 3%;*/
+  margin-left: 2%;
+}
+
+div.camara:hover img {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+div.camara:hover div.texto:before, div.camara:hover div.texto:after {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+div.camara:hover div.texto h2 {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+div.camara:hover div.texto p {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+div.camara img {
+  position: relative;
+  display: block;
+  width: calc(100% + 50px);
+  -webkit-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+          transform: translateY(-30px);
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+div.camara a {
+  z-index: 100;
+}
+
+div.camara div.texto {
+
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+div.camara div.texto:before {
+  content: '';
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: 30px;
+  right: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+      -ms-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+div.camara div.texto:after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+      -ms-transform: scale(1, 0);
+          transform: scale(1, 0);
+  -webkit-transform-origin: 100% 0;
+      -ms-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+div.camara div.texto h2 {
+  /*border: 2px red solid;*/
+  padding-top: 10%;
+  -webkit-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+          transform: translateY(-30px);
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+div.camara div.texto p {
+  padding: 10px 50px;
+  font-size: 20px;
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+  opacity: 0;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+/*-----------------nosotros-----------------*/
+.titc{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 140px;
+  background-color: #E94B22;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+.titc p{
+  margin: 0 auto;
+  border: 1px white solid;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1%;
+  width: 50%;
+  padding: 20px;
+}
+/*.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}*/
+/*.h1 small {
+font-size: 24px;
+}*/
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
