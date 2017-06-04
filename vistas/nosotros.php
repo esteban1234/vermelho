@@ -6,7 +6,9 @@
 </div>
 
 <div class="contenmenulogo">
+<i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
   <nav class=" pull-left">
+      <a id="close" class="no-hover" href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
       <a href="../index.php">INICIO</a>
       <a class="select" href="nosotros.php">NOSOTROS</a>
       <a href="servicios.php">SERVICOS</a>

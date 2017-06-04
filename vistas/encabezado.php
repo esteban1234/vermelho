@@ -14,6 +14,7 @@
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script src="js/general.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Khula|Montserrat|Roboto" rel="stylesheet">

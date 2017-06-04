@@ -6,7 +6,9 @@
 </div>
 
 <div class="contenmenulogo">
+<i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
   <nav class=" pull-left">
+  	<a id="close" class="no-hover" href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
       <a href="../index.php">INICIO</a>
       <a href="nosotros.php">NOSOTROS</a>
       <a class="select" href="servicios.php">SERVICOS</a>
@@ -23,7 +25,7 @@
 
 
 
-<div class="camara">
+	<div class="camara">
 		<img src="../img/img2.jpg" alt="">
 		<a href="#" class="absoluto"></a>
 		<div class="texto absoluto">

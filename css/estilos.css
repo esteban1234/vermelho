@@ -54,6 +54,21 @@
   background-color: #D9DB10;
     color: #E94B22;
 }
+
+.contenmenulogo nav .no-hover:hover{
+  background-color: #fff;
+    color: #000;
+}
+
+.contenmenulogo nav .no-hover{
+  padding: 2%;
+  text-align: right;
+}
+
+ #close, #open{
+  display: none;
+ }
+
 .contenmenulogo nav a.select{
    background-color: #D9DB10;
    color: #E94B22;
@@ -61,6 +76,12 @@
 .logo{
   width: 20%;
   margin-right: 7%;
+}
+
+.select i{
+  border: 2px solid red;
+  text-align: left;
+  color: #000;
 }
 
 .bs-slider{

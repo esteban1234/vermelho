@@ -2,11 +2,13 @@
 <?php include 'vistas/encabezado.php' ?>
 <body>
 <div class="lineaarriba">
-  <p class=" direc"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;Av. Eugenia #831 por Av. Gabriel Mancera y Manuel Lopez Cotilla, Col. Del Valle, Benito Juarez, México. C.P. 03100.</p>
+  <p class="direc"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;Av. Eugenia #831 por Av. Gabriel Mancera y Manuel Lopez Cotilla, Col. Del Valle, Benito Juarez, México. C.P. 03100.</p>
 </div>
 
 <div class="contenmenulogo">
-  <nav class=" pull-left">
+  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+  <nav class="pull-left">
+      <a id="close" class="no-hover" href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
       <a class="select" href="index.php">INICIO</a>
       <a href="vistas/nosotros.php">NOSOTROS</a>
       <a href="vistas/servicios.php">SERVICOS</a>
@@ -15,7 +17,7 @@
 
   <figure class="logo pull-right">
   <img src="img/vermelho.png" class="img-responsive" alt="">
-</figure>
+  </figure>
 </div>
 
 
@@ -42,7 +44,7 @@
                         <div class="row">
                             <!-- Slide Text Layer -->
                             <div class="slide-text slide_style_left">
-                                <h1 data-animation="animated zoomInRight">Comercio al por mayor de equipo y material eléctrico</h1>
+                                <h1 data-animation="animated zoomInRight">Comercio al por mayor de equipo y material eléctrico </h1>
                                 <!-- <p data-animation="animated fadeInLeft">Bootstrap carousel now touch enable slide.</p> -->
                                 <a href="vistas/contacto.php" target="_blank" class="btn btn-danger" data-animation="animated fadeInLeft">Contactar</a>
                                 <a href="vistas/servicios.php" target="_blank"  class="btn btn-warning" data-animation="animated fadeInRight">Servicios</a>
@@ -114,7 +116,8 @@
     <h1 class="text-center tit">Algunos de nuestros productos electricos</h1>
 
     <article class="contenicnostext">
-      <p class="tetxicono"><span class="fa-stack fa-lg icono2">
+      <p class="tetxicono">
+      <span class="fa-stack fa-lg icono2">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-check fa-stack-1x fa-inverse"></i>
       </span>
@@ -286,5 +289,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slide.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

@@ -1,0 +1,693 @@
+@media screen and (max-width: 480px){
+	/************DISEÑO INDEX*******************/
+
+	.lineaarriba{
+		height: 100%;
+	}
+
+	.direc span i{
+		padding: 0px;
+	}
+
+	.direc{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	.contenmenulogo nav{
+		height: 100%;
+		margin: 0px;
+		display: none;
+	}
+
+	.contenmenulogo nav a{
+		width: 100%;
+		display: inline-block;
+		padding: 5%;
+		text-align: center;
+	}
+
+	.fa {
+		padding: 10%;
+		cursor: pointer;
+	}
+
+	#close, #open{
+		display: inline-block;
+	}
+
+	.logo{
+		width: 35%;
+	}
+
+	.item{
+		height: 100%;
+	}
+
+	.item img{
+		height: 100%;
+	}
+
+	.slide-text{
+		height: 100%;
+		top: 0px;
+		text-align: center;
+		width: 90%;
+		padding: 0px;
+	}
+
+	.slide-text h1{
+		text-align: justify;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		line-height: 20px;
+    	margin-bottom: 0px;
+	}
+
+	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
+    	padding: 10px 15px;
+		text-align: center;
+		margin-top: 8%;
+	}
+
+	.control-round .carousel-control.left {
+		left: 5px;
+		display:block;
+	}
+
+	.control-round .carousel-control.right {
+	    right: 5px;
+	    display:block;
+	}
+
+	.text1, .text2{
+		margin: 5% 0px;
+	}
+	
+	.text1, .text1 h2{
+		font-size: 18px;
+	}
+
+	.fondo h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.contenalgunos, .contenalgunos2, .fondo{
+		height: 950px;
+	}
+
+	.contenicnostext{
+		border: .5px solid #ED9191;
+		width: 100%;
+		text-align: center;
+		margin: 3% 0px;
+	}
+
+	.tetxicono{
+		width: 80%;
+		margin: auto;
+		text-align: left;
+	}
+
+	/*************END DISEÑO INDEX********************/
+
+	/******************DISEÑO NOSOTROS********************/
+
+	.titn{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.subtitn{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.contentextmex div, .contentextmex figure{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.contentextmex div{
+		padding: 5%;
+		text-align: justify;
+	}
+
+	.uno{
+		width: 100%;
+		margin: 0px;
+		padding: 5%;
+	}
+
+	.mtit{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.submtit{
+		text-align: justify;
+	}
+
+	.contenmvv, .fondo2{
+		height: 100%;
+	}
+	
+	/*************END DISEÑO NOSOTROS********************/
+
+	/******************DISEÑO SERVICIOS********************/
+	.tits{
+		height: 100%;
+	}
+	.tits p{
+		width: 100%;
+		text-align: justify;
+		padding: 0px;
+		font-size: 18px;
+		border: 0px;
+	}
+
+	div.camara{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.texto h2{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5%;
+	}
+
+	div.camara:hover div.texto:before, div.camara:hover div.texto:after {
+  	-webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+	}
+
+	/*************END DISEÑO SERVICIOS********************/
+
+	/******************DISEÑO CONTACTO********************/
+	.titc{
+		height: 100%;
+	}
+
+	.titc p{
+		width: 100%;
+	}
+
+	legend{
+		text-align: center;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	.mapa{
+		text-align: center;
+	}
+
+	.mapa > iframe{
+		width: 95%;
+	}
+	/*************END DISEÑO CONTACTO********************/
+
+	/******************DISEÑO FOOTER********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+		padding: 5% 0px;
+	}
+	/*************END DISEÑO FOOTER********************/
+
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/************DISEÑO INDEX*******************/
+
+	.lineaarriba{
+		height: 100%;
+	}
+
+	.direc span i{
+		padding: 0px;
+	}
+
+	.direc{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	.contenmenulogo nav{
+		height: 100%;
+		margin: 0px;
+		display: none;
+	}
+
+	.contenmenulogo nav a{
+		width: 100%;
+		display: inline-block;
+		padding: 5%;
+		text-align: center;
+	}
+
+	.fa {
+		padding: 10%;
+		cursor: pointer;
+	}
+
+	#close, #open{
+		display: inline-block;
+	}
+
+	.logo{
+		width: 35%;
+	}
+
+	.item{
+		height: 100%;
+	}
+
+	.item img{
+		height: 100%;
+	}
+
+	.slide-text{
+		height: 100%;
+		top: 0px;
+		text-align: center;
+		width: 90%;
+		padding: 0px;
+	}
+
+	.slide-text h1{
+		text-align: justify;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		line-height: 20px;
+    	margin-bottom: 0px;
+	}
+
+	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
+    	padding: 10px 15px;
+		text-align: center;
+		margin-top: 8%;
+	}
+
+	.control-round .carousel-control.left {
+		left: 5px;
+		display:block;
+	}
+
+	.control-round .carousel-control.right {
+	    right: 5px;
+	    display:block;
+	}
+
+	.text1, .text2{
+		margin: 5% 0px;
+	}
+	
+	.text1, .text1 h2{
+		font-size: 18px;
+	}
+
+	.fondo h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.contenalgunos, .contenalgunos2, .fondo{
+		height: 950px;
+	}
+
+	.contenicnostext{
+		border: .5px solid #ED9191;
+		width: 100%;
+		text-align: center;
+		margin: 3% 0px;
+	}
+
+	.tetxicono{
+		width: 80%;
+		margin: auto;
+		text-align: left;
+	}
+
+	/*************END DISEÑO INDEX********************/
+
+	/******************DISEÑO NOSOTROS********************/
+
+	.titn{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.subtitn{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.contentextmex div, .contentextmex figure{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.contentextmex div{
+		padding: 5%;
+		text-align: justify;
+	}
+
+	.uno{
+		width: 100%;
+		margin: 0px;
+		padding: 5%;
+	}
+
+	.mtit{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.submtit{
+		text-align: justify;
+	}
+
+	.contenmvv, .fondo2{
+		height: 100%;
+	}
+	
+	/*************END DISEÑO NOSOTROS********************/
+
+	/******************DISEÑO SERVICIOS********************/
+	.tits{
+		height: 100%;
+	}
+	.tits p{
+		width: 100%;
+		text-align: justify;
+		padding: 0px;
+		font-size: 18px;
+		border: 0px;
+	}
+
+	div.camara{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.texto h2{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5%;
+	}
+
+	div.camara:hover div.texto:before, div.camara:hover div.texto:after {
+  	-webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+	}
+
+	/*************END DISEÑO SERVICIOS********************/
+
+	/******************DISEÑO CONTACTO********************/
+	.titc{
+		height: 100%;
+	}
+
+	.titc p{
+		width: 100%;
+	}
+
+	legend{
+		text-align: center;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	.mapa{
+		text-align: center;
+	}
+
+	.mapa > iframe{
+		width: 95%;
+	}
+	/*************END DISEÑO CONTACTO********************/
+
+	/******************DISEÑO FOOTER********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+		padding: 5% 0px;
+	}
+	/*************END DISEÑO FOOTER********************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/************DISEÑO INDEX*******************/
+
+	.lineaarriba{
+		height: 100%;
+	}
+
+	.direc span i{
+		padding: 0px;
+	}
+
+	.direc{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	.contenmenulogo nav{
+		height: 100%;
+		margin: 0px;
+		display: none;
+	}
+
+	.contenmenulogo nav a{
+		width: 100%;
+		display: inline-block;
+		padding: 5%;
+		text-align: center;
+	}
+
+	.fa {
+		padding: 10%;
+		cursor: pointer;
+	}
+
+	#close, #open{
+		display: inline-block;
+	}
+
+	.logo{
+		width: 35%;
+	}
+
+	.item{
+		height: 100%;
+	}
+
+	.item img{
+		height: 100%;
+	}
+
+	.slide-text{
+		height: 100%;
+		top: 0px;
+		text-align: center;
+		width: 90%;
+		padding: 0px;
+	}
+
+	.slide-text h1{
+		text-align: justify;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		line-height: 20px;
+    	margin-bottom: 0px;
+	}
+
+	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
+    	padding: 10px 15px;
+		text-align: center;
+		margin-top: 8%;
+	}
+
+	.control-round .carousel-control.left {
+		left: 5px;
+		display:block;
+	}
+
+	.control-round .carousel-control.right {
+	    right: 5px;
+	    display:block;
+	}
+
+	.text1, .text2{
+		margin: 5% 0px;
+	}
+	
+	.text1, .text1 h2{
+		font-size: 18px;
+	}
+
+	.fondo h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.contenalgunos, .contenalgunos2, .fondo{
+		height: 950px;
+	}
+
+	.contenicnostext{
+		border: .5px solid #ED9191;
+		width: 100%;
+		text-align: center;
+		margin: 3% 0px;
+	}
+
+	.tetxicono{
+		width: 80%;
+		margin: auto;
+		text-align: left;
+	}
+
+	/*************END DISEÑO INDEX********************/
+
+	/******************DISEÑO NOSOTROS********************/
+
+	.titn{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.subtitn{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.contentextmex div, .contentextmex figure{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.contentextmex div{
+		padding: 5%;
+		text-align: justify;
+	}
+
+	.uno{
+		width: 100%;
+		margin: 0px;
+		padding: 5%;
+	}
+
+	.mtit{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.submtit{
+		text-align: justify;
+	}
+
+	.contenmvv, .fondo2{
+		height: 100%;
+	}
+	
+	/*************END DISEÑO NOSOTROS********************/
+
+	/******************DISEÑO SERVICIOS********************/
+	.tits{
+		height: 100%;
+	}
+	.tits p{
+		width: 100%;
+		text-align: justify;
+		padding: 0px;
+		font-size: 18px;
+		border: 0px;
+	}
+
+	div.camara{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.texto h2{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5%;
+	}
+
+	div.camara:hover div.texto:before, div.camara:hover div.texto:after {
+  	-webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+	}
+
+	/*************END DISEÑO SERVICIOS********************/
+
+	/******************DISEÑO CONTACTO********************/
+	.titc{
+		height: 100%;
+	}
+
+	.titc p{
+		width: 100%;
+	}
+
+	legend{
+		text-align: center;
+	}
+
+	address{
+		text-align: justify;
+	}
+
+	.mapa{
+		text-align: center;
+	}
+
+	.mapa > iframe{
+		width: 95%;
+	}
+	/*************END DISEÑO CONTACTO********************/
+
+	/******************DISEÑO FOOTER********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+		padding: 5% 0px;
+	}
+	/*************END DISEÑO FOOTER********************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

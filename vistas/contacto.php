@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-	<div class="lineaarriba">
-  <p class=" direc"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;Av. Eugenia #831 por Av. Gabriel Mancera y Manuel Lopez Cotilla, Col. Del Valle, Benito Juarez, México. C.P. 03100.</p>
+<div class="lineaarriba">
+    <p class=" direc"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+  &nbsp;Av. Eugenia #831 por Av. Gabriel Mancera y Manuel Lopez Cotilla, Col. Del Valle, Benito Juarez, México. C.P. 03100.</p>
 </div>
 
 <div class="contenmenulogo">
-  <nav class=" pull-left">
+<i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+  <nav class="pull-left">
+        <a id="close" class="no-hover" href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
       <a href="../index.php">INICIO</a>
       <a href="nosotros.php">NOSOTROS</a>
       <a href="servicios.php">SERVICOS</a>
@@ -25,18 +28,18 @@
     <div class="row">
         <div class="col-md-8">
             <div class="well well-sm">
-                <form>
+                <form onSubmit="return false">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nombre Completo</label>
-                            <input type="text" class="form-control" id="name" placeholder="Escribe tu Nombre Completo" required="required" />
+                            <input type="text" id="txtNOMBRE" class="form-control" placeholder="Escribe tu Nombre Completo">
                         </div>
                          <div class="form-group">
                             <label for="name">
                                 Teléfono</label>
-                            <input type="text" class="form-control" id="name" placeholder="Escribe tu Teléfono" required="required" />
+                            <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu Teléfono">
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -44,34 +47,25 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Escribe tu Correo" required="required" /></div>
+                                <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu Correo"></div>
                         </div>
-                       <!--  <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">General Customer Service</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
-                            </select>
-                        </div> -->
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Comentario</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            <textarea name="message" id="txtCOMENTARIO" class="form-control" rows="9" cols="25"
                                 placeholder="Escribe tu Comentario"></textarea>
                         </div>
                     </div>
+                    <div id="_AJAX_PRE_"></div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-warning pull-right" id="btnContactUs">
-                            ENVIAR</button>
+                        <button type="submit" class="btn btn-warning pull-right" id="btnContactUs"  onclick="sendCORREO()">ENVIAR</button>
                     </div>
                 </div>
                 </form>
             </div>
+
         </div>
         <div class="col-md-4">
             <form>
@@ -104,6 +98,7 @@
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
+<script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/funciondthc.js"></script>
 <script src="../js/menu.js"></script>
