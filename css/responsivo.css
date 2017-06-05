@@ -253,7 +253,7 @@
 	.contenmenulogo nav a{
 		width: 100%;
 		display: inline-block;
-		padding: 5%;
+		padding: 2%;
 		text-align: center;
 	}
 
@@ -270,29 +270,8 @@
 		width: 35%;
 	}
 
-	.item{
-		height: 100%;
-	}
-
-	.item img{
-		height: 100%;
-	}
-
 	.slide-text{
-		height: 100%;
 		top: 0px;
-		text-align: center;
-		width: 90%;
-		padding: 0px;
-	}
-
-	.slide-text h1{
-		text-align: justify;
-		font-size: 15px;
-		font-weight: bold;
-		width: 100%;
-		line-height: 20px;
-    	margin-bottom: 0px;
 	}
 
 	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
@@ -358,6 +337,7 @@
 	.contentextmex div, .contentextmex figure{
 		width: 100%;
 		margin: 0px;
+		/*border: 2px solid red;*/
 	}
 
 	.contentextmex div{
@@ -399,8 +379,10 @@
 	}
 
 	div.camara{
-		width: 100%;
-		margin: 0px;
+		width: 80%;
+		margin: 2% auto;
+		float: none;
+
 	}
 
 	.texto h2{
@@ -430,8 +412,13 @@
 		text-align: center;
 	}
 
+	legend span i{
+		padding: 0px !important;
+	}
+
 	address{
-		text-align: justify;
+		text-align: center;
+		/*width: 45%;*/
 	}
 
 	.mapa{
@@ -457,7 +444,7 @@
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-	/************DISEÑO INDEX*******************/
+		/************DISEÑO INDEX*******************/
 
 	.lineaarriba{
 		height: 100%;
@@ -481,7 +468,7 @@
 	.contenmenulogo nav a{
 		width: 100%;
 		display: inline-block;
-		padding: 5%;
+		padding: 2%;
 		text-align: center;
 	}
 
@@ -498,29 +485,8 @@
 		width: 35%;
 	}
 
-	.item{
-		height: 100%;
-	}
-
-	.item img{
-		height: 100%;
-	}
-
 	.slide-text{
-		height: 100%;
-		top: 0px;
-		text-align: center;
-		width: 90%;
-		padding: 0px;
-	}
-
-	.slide-text h1{
-		text-align: justify;
-		font-size: 15px;
-		font-weight: bold;
-		width: 100%;
-		line-height: 20px;
-    	margin-bottom: 0px;
+		top: 50px;
 	}
 
 	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
@@ -552,20 +518,23 @@
 		font-weight: bold;
 	}
 	.contenalgunos, .contenalgunos2, .fondo{
-		height: 950px;
+		height: 580px;
+		text-align: center;
 	}
 
 	.contenicnostext{
 		border: .5px solid #ED9191;
-		width: 100%;
-		text-align: center;
-		margin: 3% 0px;
+		width: 47%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 1%;
 	}
 
 	.tetxicono{
-		width: 80%;
-		margin: auto;
+		width: 100%;
 		text-align: left;
+		font-size: 18px;
 	}
 
 	/*************END DISEÑO INDEX********************/
@@ -586,6 +555,7 @@
 	.contentextmex div, .contentextmex figure{
 		width: 100%;
 		margin: 0px;
+		/*border: 2px solid red;*/
 	}
 
 	.contentextmex div{
@@ -627,8 +597,14 @@
 	}
 
 	div.camara{
-		width: 100%;
-		margin: 0px;
+		width: 45%;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	div.camara img{
+		height: 250px;
 	}
 
 	.texto h2{
@@ -658,8 +634,13 @@
 		text-align: center;
 	}
 
+	legend span i{
+		padding: 0px !important;
+	}
+
 	address{
-		text-align: justify;
+		text-align: center;
+		/*width: 45%;*/
 	}
 
 	.mapa{
@@ -684,9 +665,240 @@
 	/*************END DISEÑO FOOTER********************/
 }
 
-@media screen and (max-width: 1023px) and (min-width: 800px) {}
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+		/************DISEÑO INDEX*******************/
+
+	.lineaarriba{
+		height: 100%;
+	}
+
+	.direc span i{
+		padding: 0px;
+	}
+
+	.direc{
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	.contenmenulogo nav{
+		height: 100%;
+		margin: 0px;
+		display: none;
+	}
+
+	.contenmenulogo nav a{
+		width: 100%;
+		display: inline-block;
+		padding: 2%;
+		text-align: center;
+	}
+
+	.fa {
+		padding: 10%;
+		cursor: pointer;
+	}
+
+	#close, #open{
+		display: inline-block;
+	}
+
+	.logo{
+		width: 35%;
+	}
+
+	.slide-text{
+		top: 50px;
+	}
+
+	.slide-text > a.btn-danger, .slide-text > a.btn-warning{
+    	padding: 10px 15px;
+		text-align: center;
+		margin-top: 8%;
+	}
+
+	.control-round .carousel-control.left {
+		left: 5px;
+		display:block;
+	}
+
+	.control-round .carousel-control.right {
+	    right: 5px;
+	    display:block;
+	}
+
+	.text1, .text2{
+		margin: 5% 0px;
+	}
+	
+	.text1, .text1 h2{
+		font-size: 18px;
+	}
+
+	.fondo h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.contenalgunos, .contenalgunos2, .fondo{
+		height: 620px;
+		text-align: center;
+	}
+
+	.contenicnostext{
+		border: .5px solid #ED9191;
+		width: 47%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 1%;
+	}
+
+	.tetxicono{
+		width: 100%;
+		text-align: left;
+		font-size: 18px;
+	}
+
+	/*************END DISEÑO INDEX********************/
+
+	/******************DISEÑO NOSOTROS********************/
+
+	.titn{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.subtitn{
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.contentextmex div, .contentextmex figure{
+		width: 48%;
+		margin: 0px;
+		/*border: 2px solid red;*/
+	}
+
+	.contentextmex div{
+		padding: 5%;
+		text-align: justify;
+	}
+
+	.fondo2{
+		text-align: center;
+	}
+
+	.uno{
+		width: 48%;
+		margin: 0px;
+		padding: 5%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.mtit{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.submtit{
+		text-align: justify;
+	}
+
+	.contenmvv, .fondo2{
+		height: 100%;
+	}
+	
+	/*************END DISEÑO NOSOTROS********************/
+
+	/******************DISEÑO SERVICIOS********************/
+	.tits{
+		height: 100%;
+	}
+	.tits p{
+		width: 100%;
+		text-align: justify;
+		padding: 0px;
+		font-size: 18px;
+		border: 0px;
+	}
+
+	div.camara{
+		width: 45%;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	div.camara img{
+		height: 250px;
+	}
+
+	.texto h2{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5%;
+	}
+
+	div.camara:hover div.texto:before, div.camara:hover div.texto:after {
+  	-webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+	}
+
+	/*************END DISEÑO SERVICIOS********************/
+
+	/******************DISEÑO CONTACTO********************/
+	.titc{
+		height: 100%;
+	}
+
+	.titc p{
+		width: 100%;
+	}
+
+	legend{
+		text-align: center;
+	}
+
+	legend span i{
+		padding: 0px !important;
+	}
+
+	address{
+		text-align: center;
+		/*width: 45%;*/
+	}
+
+	.mapa{
+		text-align: center;
+	}
+
+	.mapa > iframe{
+		width: 95%;
+	}
+	/*************END DISEÑO CONTACTO********************/
+
+	/******************DISEÑO FOOTER********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		font-size: 18px;
+		padding: 5% 0px;
+	}
+	/*************END DISEÑO FOOTER********************/
+}
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+	address, legend{
+		text-align: center;
+		/*width: 45%;*/
+	}
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 

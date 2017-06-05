@@ -26,7 +26,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-sm-8 col-md-12 col-lg-8">
             <div class="well well-sm">
                 <form onSubmit="return false">
                 <div class="row">
@@ -67,9 +67,9 @@
             </div>
 
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-md-12  col-lg-4">
             <form>
-            <legend><span ><i class="fa fa-phone" aria-hidden="true"></i></span> Contactos</legend>
+            <legend><span><i class="fa fa-phone" aria-hidden="true"></i></span> Contactos</legend>
             <address>
                 <strong>Dirección</strong><br>
                 Av. Eugenia #831 entre C. Av. Gabriel Mancera<br>
