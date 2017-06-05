@@ -93,8 +93,9 @@
 		font-size: 20px;
 		font-weight: bold;
 	}
+
 	.contenalgunos, .contenalgunos2, .fondo{
-		height: 950px;
+		height: auto;
 	}
 
 	.contenicnostext{
@@ -302,8 +303,9 @@
 		font-size: 20px;
 		font-weight: bold;
 	}
+
 	.contenalgunos, .contenalgunos2, .fondo{
-		height: 950px;
+		height: auto;
 	}
 
 	.contenicnostext{
